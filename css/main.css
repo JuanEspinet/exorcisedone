@@ -1,0 +1,56 @@
+article {
+  background-color: ivory;
+  border: 1px solid grey;
+  border-radius: 5px;
+  /*margin-left: 1rem;*/
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 20rem;
+}
+body {
+  background-color: #FFF8DC;
+  text-color: #191919;
+}
+footer {
+  text-align: center;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5rem;
+}
+dd {
+  display: list-item;
+}
+.alignTextCenter {
+  text-align: center;
+}
+.alignContentCenter {
+  margin: auto;
+  width: 60%;
+  padding: 0rem;
+}
+.redText {
+  color: red;
+}
+.blueText {
+  color: blue;
+}
+.greenText {
+  color: #008000;
+}
+.strikeText {
+  text-decoration: line-through;
+}
+.flexBox {
+  align-content: center;
+  display: flex;
+  width: 80rem;
+  /*margin-left: 15%;*/
+  margin: auto;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
